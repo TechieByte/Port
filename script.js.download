@@ -1,0 +1,98 @@
+
+ function scrollToContact() {
+      var section = document.getElementById("contact");
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+     function scrollToAbout() {
+      var section = document.getElementById("about");
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  function scrollToProjects() {
+      var section = document.getElementById("projects");
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+     function scrollToExperience() {
+      var section = document.getElementById("experience");
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  function linkedIn(){
+    window.location.href='https://linkedin.com/in/srprawinraja';
+  }
+
+function gitHub(){
+  window.location.href='https://github.com/srprawinraja';
+}
+
+function leetCode(){
+  window.location.href='https://leetcode.com/srprawinraja';
+}
+function resume(){
+  window.location.href='https://drive.google.com/file/d/1Enzx814KoG25TALMSkmRCh3z7OuxC-dU/view?usp=sharing';
+}
+function medium(){
+  window.location.href='https://medium.com/@srprawinraja';
+}
+function toggleMenu() {
+   const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+
+    if (!menu || !icon) {
+        console.error("Menu or icon element not found.");
+        return;
+    }
+
+    // Toggle "open" class on menu and icon
+    menu.classList.toggle("open");
+    icon.classList.toggle("open");
+}
+
+function view3(){
+  setThings('github3','view3','paragraph-3','1');
+}
+
+function click3(){
+  setThings('github3','view3','paragraph-3','0');
+}
+function view1(){
+  setThings('github1','view1','paragraph-1','1');
+}
+
+function click1(){
+  setThings('github1','view1','paragraph-1','0');
+}
+
+function view2(){
+  setThings('github2','view2','paragraph-2','1');
+}
+
+function click2(){
+  setThings('github2','view2','paragraph-2','0');
+}
+
+
+
+
+
+function setThings(id1, id2, id3, decider){
+  var button = document.getElementById(id1);
+  var view = document.getElementById(id2);
+  var p=document.getElementById(id3);
+  if(decider==1){
+    button.style.display="none";
+    view.style.display="none";
+    p.style.display="block";
+  }
+  else{
+    button.style.display="block";
+    view.style.display="block";
+    p.style.display="none";
+  } 
+}
