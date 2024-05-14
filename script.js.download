@@ -56,10 +56,13 @@ function toggleMenu() {
 
 function view3(){
   setThings('github3','view3','paragraph-3','1');
+  setThings('github3','view3','paragraph-3','1');
 }
 
 function click3(){
   setThings('github3','view3','paragraph-3','0');
+  setThings('github3','view3','paragraph-3','0');
+
 }
 function view1(){
   setThings('github1','view1','paragraph-1','1');
