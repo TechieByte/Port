@@ -35,7 +35,7 @@ function leetCode(){
   window.location.href='https://leetcode.com/srprawinraja';
 }
 function resume(){
-  window.location.href='https://drive.google.com/file/d/1dmx4kEBifOPmHp958XoxWP4nIzLklrIs/view?usp=sharing';
+  window.location.href='https://drive.google.com/file/d/1gr0zumB9mYPD-gEZ9DE4pgh4Pkh5p1qL/view?usp=sharing';
 }
 function medium(){
   window.location.href='https://medium.com/@srprawinraja';
