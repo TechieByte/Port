@@ -35,7 +35,7 @@ function leetCode(){
   window.location.href='https://leetcode.com/srprawinraja';
 }
 function resume(){
-  window.location.href='https://drive.google.com/file/d/1ZChjrKAtw_jUopjaym9VjWHjyig1lcO5/view?usp=drive_link';
+    window.open('resume.pdf', '_blank');
 }
 function medium(){
   window.location.href='https://medium.com/@srprawinraja';
@@ -54,16 +54,7 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
-function view3(){
-  setThings('github3','view3','paragraph-3','1');
-  setThings('amazon','view3','paragraph-3','1');
-}
 
-function click3(){
-  setThings('github3','view3','paragraph-3','0');
-  setThings('amazon','view3','paragraph-3','0');
-
-}
 function view1(){
   setThings('github1','view1','paragraph-1','1');
 }
@@ -78,6 +69,25 @@ function view2(){
 
 function click2(){
   setThings('github2','view2','paragraph-2','0');
+}
+
+function view3(){
+  setThings('github3','view3','paragraph-3','1');
+  setThings('amazon','view3','paragraph-3','1');
+}
+
+function click3(){
+  setThings('github3','view3','paragraph-3','0');
+  setThings('amazon','view3','paragraph-3','0');
+}
+
+function view4(){
+  console.log("")
+  setThings('github4','view4','paragraph-4','1');
+}
+
+function click4(){
+  setThings('github4','view4','paragraph-4','0');
 }
 
 
