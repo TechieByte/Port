@@ -345,7 +345,6 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
   gap: 0.5rem;
 }
 
@@ -450,5 +449,9 @@ footer p {
 }
 
 .paragraph-2{
+  display: none;
+}
+
+.paragraph-4{
   display: none;
 }
